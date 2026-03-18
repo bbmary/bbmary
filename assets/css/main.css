@@ -3441,7 +3441,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
 		background: #252525;
-		height: 3em;
+		height: 4em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -3467,6 +3467,7 @@ input, select, textarea {
 				display: block;
 				height: inherit;
 				line-height: inherit;
+				margin-top: 20%;
 			}
 
 				@media screen and (max-width: 736px) {
