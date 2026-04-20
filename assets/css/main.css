@@ -3459,13 +3459,14 @@ input, select, textarea {
 		z-index: 10000;
 	}
 
-		#header h1 {
+#header h1 {
 			-moz-transition: opacity 0.2s ease;
 			-webkit-transition: opacity 0.2s ease;
 			-ms-transition: opacity 0.2s ease;
 			transition: opacity 0.2s ease;
 			height: inherit;
-			left: 1.25em;
+			left: 50%;
+			transform: translateX(-50%);
 			line-height: inherit;
 			position: absolute;
 			top: 0;
